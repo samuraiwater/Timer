@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Slabo 13px', serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.container-fluid {
+    width: 900px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: rgb(247, 255, 211);
+}
+
+h1 {
+    padding: 20px 10px 10px;
+    font-size: 20px;
+}
+h3 {
+    padding: 10px 0 0px 20px;
+    font-size: 14px;
+}
+
+.main_container{
+    width: 500px;
+    margin: 0 20px 0 50px;
+    background-color: rgb(226, 158, 253);
+}
+
+.Exercise_box{
+    width: 100%;
+    height: 130px;
+    float: left;
+    background-color: rgb(177, 252, 200);
+}
+
+.but_m {
+    width:35px;
+    height:35px;
+    margin: 5px 5px 0;
+    float: left;
+}
+
+.but_m:first-child {
+    margin-left: 20px;
+}
+
+.but_m:nth-child(11) {
+    margin-left: 20px;
+}
+.break_box{
+    width: 100%;
+    height: 130px;
+    float: left;
+    background-color: rgb(194, 255, 242);
+}
+
+.but_s {
+    width:35px;
+    height:35px;
+    margin: 5px;
+}
+
+.timeSet_box{
+    width: 100%;
+    height: 120px;
+    float: left;
+    background-color: rgb(215, 252, 255);
+}
+
+#timebox1 {
+    width: 170px;
+    height: 50px;
+    margin: 0 0 0 20px;
+    float: left;
+    border: goldenrod solid 1px;
+    border-radius: 2px;
+}
+
+.symbol {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#timebox2 {
+    width: 170px;
+    height: 50px;
+    margin: 0 20px 0 20px;
+    float: left;
+    border: goldenrod solid 1px;
+    border-radius: 2px;
+}
+
+#repeat {
+    width: 50px;
+    height: 50px;
+    margin: 0 15px 0px 15px;
+    float: left;
+    border: goldenrod solid 1px;
+    border-radius: 2px;
+}
+
+.sc_box{
+    width: 100%;
+    height: 100px;
+    float: left;
+    display: inline-flex;
+    background-color: rgb(151, 222, 255);
+}
+.space {
+    margin: 0 50px 0;
+}
+
+.right_container {
+    width: 230px;
+    margin: 0 15px 0 40px;
+    padding: 0;
+    height: 420px;
+    display: inline-flex;
+    background-color: rgb(193, 240, 247);
+}
+
+.btu_sub {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: #dddbda;
+    color: rgb(94, 93, 93);
+    border-bottom: solid 4px #a1a1a1;
+    border-radius: 3px;
+}
+      
+.btn_sub:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+.btu_cle {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: #668ad8;
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+.btn_cle:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
