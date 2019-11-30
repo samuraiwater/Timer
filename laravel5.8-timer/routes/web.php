@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 //URLの設定
 Route::get('timer', 'TimerController@index');
+Route::post('clock', 'ClockController@index');
